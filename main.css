@@ -3,13 +3,16 @@
 #about{
 	background-color:black;
 	background-repeat:no-repeat;
-	background-size:auto;
+	background-size: auto;
+	font-family: source-sans-pro, sans-serif;
+	font-weight: 400;
+	font-style: normal;
 }
 
 .container{
 	background:white;
-	width: 300%;
-	height: 300%;
+	width: 100%;
+	height: auto;
 }
 
 
@@ -21,29 +24,170 @@
   	margin-right: auto;
 }
 
-.topnav {
-  	background-color:black;
-  	overflow: hidden;
-	margin-left: auto;
-	margin-right: auto;
+
+.navbar {
+  overflow: hidden;
+  background-color: black;
 }
 
-.topnav a {
+.navbar a {
   float: left;
+  font-size: 16px;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
 }
 
-
-.topnav a:hover {
-  background-color: #b59600;
-  color: black;
+.navbar hover{
+	background-color: #b59600;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
 }
 
-.topnav a.active {
-  background-color:#560201;
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
   color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: #b59600;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #b59600;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.row{
+	background-color: white;
+	background: url("Assets/Images/blood.png");
+	background-repeat: repeat;
+}
+
+
+#ted, #dahmer, #gein, #zodiac {
+  	float: left;
+	width: auto;
+  	padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+#gein{
+	height: 300px;
+width: auto;
+
+}
+
+#zodiac{
+    height: 300px;
+width: auto;
+}
+
+#ted{
+height: 300px;
+width: auto;
+}
+
+#dahmer{
+   height: 300px;
+width: auto;
+}
+
+#homefoot{
+	text-align: center;
+	font-size:20px;
+}
+
+
+#aboutus{
+	background: url("Assets/Images/blood.png");
+	background-repeat: repeat;
+	text-align: center;
+	font-size: 30px;
+}
+
+#aboutusfoot{
+	text-align: center;
+}
+
+
+#contact{
+	text-align: center
+}
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #550308;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:#b59600;
+	color: black;
+}
+
+.contactform {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+#dahmername{
+	text-align: center;
+}
+
+.dahmer{
+	background: url("Assets/Images/blood.png");
+	background-repeat: repeat;
+	text-align: center;
 }
