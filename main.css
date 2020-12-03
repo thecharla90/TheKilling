@@ -1,3 +1,49 @@
 @charset "UTF-8";
 /* CSS Document */
+#about{
+	background-color:black;
+	background-repeat:no-repeat;
+	background-size:auto;
+}
 
+.container{
+	background:white;
+	width: 300%;
+	height: 300%;
+}
+
+
+.container img {
+    width: 300px;
+    height: 300px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.topnav {
+  	background-color:black;
+  	overflow: hidden;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.topnav a:hover {
+  background-color: #b59600;
+  color: black;
+}
+
+.topnav a.active {
+  background-color:#560201;
+  color: white;
+}
