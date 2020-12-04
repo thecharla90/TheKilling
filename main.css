@@ -289,3 +289,13 @@ img {vertical-align: middle;}
 @media only screen and (max-width: 300px) {
   .prev, .next,.text {font-size: 11px}
 }
+
+#bundyname{
+	text-align: center;
+}
+
+.bundy{
+	background: url("Assets/Images/blood.png");
+	background-repeat: repeat;
+	text-align: center;
+}
