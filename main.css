@@ -95,7 +95,7 @@
 }
 
 
-#ted, #dahmer{
+#dahmer{
   	float: center;
 	width: auto;
   	padding: 5px;
@@ -107,12 +107,6 @@
   display: table;
 }
 
-
-
-#ted{
-height: 300px;
-width: auto;
-}
 
 #dahmer{
    height: 300px;
@@ -281,18 +275,3 @@ img {vertical-align: middle;}
   .prev, .next,.text {font-size: 11px}
 }
 
-#bundyname{
-	text-align: center;
-}
-
-.bundy{
-	background: url("Assets/Images/blood.png");
-	background-repeat: repeat;
-	text-align: center;
-}
-
-#youngbundy{
-		float: left;
-		width: auto;
-  		padding: 5px;
-}
