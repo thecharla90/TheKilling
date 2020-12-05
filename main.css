@@ -299,3 +299,9 @@ img {vertical-align: middle;}
 	background-repeat: repeat;
 	text-align: center;
 }
+
+#youngbundy{
+		float: left;
+		width: auto;
+  		padding: 5px;
+}
