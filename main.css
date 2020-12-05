@@ -95,8 +95,8 @@
 }
 
 
-#ted, #dahmer, #gein, #zodiac {
-  	float: left;
+#ted, #dahmer{
+  	float: center;
 	width: auto;
   	padding: 5px;
 }
@@ -107,16 +107,7 @@
   display: table;
 }
 
-#gein{
-	height: 300px;
-width: auto;
 
-}
-
-#zodiac{
-    height: 300px;
-width: auto;
-}
 
 #ted{
 height: 300px;
